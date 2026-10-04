@@ -37,7 +37,7 @@ export default function Hero() {
               <Link href="/" className="text-[#2F85EB] underline underline-offset-8 decoration-2 text-[16px] font-medium tracking-tight">
                 Home
               </Link>
-              <Link href="/gallery" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
+              <Link href="/#gallery" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
                 Gallery
               </Link>
               <Link href="/library" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
@@ -63,7 +63,7 @@ export default function Hero() {
             <Link href="/" className="text-[#2F85EB] underline underline-offset-8 decoration-2 text-[16px] font-medium tracking-tight">
               Home
             </Link>
-            <Link href="/gallery" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
+            <Link href="/#gallery" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
               Gallery
             </Link>
             <Link href="/library" className="text-gray-500 text-[16px] hover:text-[#2F85EB] transition-colors tracking-tight">
@@ -111,10 +111,10 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="flex items-center justify-center space-x-2 w-[191px] h-[62px] bg-gradient-to-r from-[#2F80ED] to-[#2D9EE0] rounded-xl text-white text-[16px] font-medium tracking-tight hover:opacity-90 transition-opacity shadow-lg shadow-blue-500/30">
+            <Link href="/dashboard" className="flex items-center justify-center space-x-2 w-[191px] h-[62px] bg-gradient-to-r from-[#2F80ED] to-[#2D9EE0] rounded-xl text-white text-[16px] font-medium tracking-tight hover:opacity-90 transition-opacity shadow-lg shadow-blue-500/30">
               <Image src="/images/film-reel.png" alt="Film Reel" width={20} height={20} />
               <span>Grab Your Movie</span>
-            </button>
+            </Link>
             <button className="flex items-center justify-center space-x-2 w-[170px] h-[62px] text-[#3A86FF] bg-white border border-gray-200 rounded-xl text-[16px] font-medium tracking-tight shadow-sm hover:bg-blue-50/50 transition-colors">
               <Image src="/images/play-button.png" alt="Play" width={20} height={20} />
               <span>View Demo</span>

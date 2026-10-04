@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Gallery = () => {
   return (
-    <section className="relative w-full overflow-hidden pt-12 pb-16 lg:py-24 flex flex-col items-center bg-transparent">
+    <section id="gallery" className="relative w-full overflow-hidden pt-12 pb-16 lg:py-24 flex flex-col items-center bg-transparent">
 
 
       <div className="relative z-10 flex flex-col items-center w-full max-w-[377px] lg:max-w-[1260px] mx-auto px-4 lg:mt-12 lg:mb-12">
